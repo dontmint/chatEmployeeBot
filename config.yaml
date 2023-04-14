@@ -1,0 +1,23 @@
+tgbotapi:
+  token: 
+  debug: true
+  groupBroadCast:
+    id: 
+    defaultMessage:
+  adminId:
+    - 123456
+database:
+  name: postgres
+  host: chatemployeedb
+  port: 5432
+  username: postgres
+  password: password
+  sslmode: disable
+checkin:
+  maxDistance: 25
+timezone: Asia/Ho_Chi_Minh
+api:
+  listenAddr: 0.0.0.0:9000
+  secret: JWT-secret
+reportPath: /tmp/report.xlsx
+
